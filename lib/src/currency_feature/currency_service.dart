@@ -6,7 +6,7 @@ class CurrencyService {
   Map<String, String> requestHeaders = {
     'Content-type': 'application/json',
     'Accept': 'application/json',
-    'api_key': 'a88pyfx7ckzs3bay8yefrawj'
+    'api_key': 'YOUR_API_KEY'
   };
 
   List parseCurrencies(String responseBody) {
@@ -19,8 +19,7 @@ class CurrencyService {
 
   Future<List> fetchCurrencies() async {
     final response = await http.get(
-        Uri.parse(
-            'https://emeapresalesnorth.api.mashery.com/3vkhozj5be3oozma5gxycts3net6nf2d/currencies'),
+        Uri.parse('https://YOURHOST.com/currencies'),
         headers: requestHeaders);
 
     if (response.statusCode == 200) {
