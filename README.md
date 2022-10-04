@@ -1,6 +1,6 @@
 # currencyapp
 
-A new Flutter project.
+This is a project created as part of a blog post on medium.com that works with APIs created from TIBCO Cloud Integration. Please refer to the blog post here: https://davidwinstone.medium.com/developing-flutter-apps-with-tibco-cloud-integration-59bb94d592f4
 
 ## Getting Started
 
